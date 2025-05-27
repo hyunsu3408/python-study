@@ -121,12 +121,13 @@ w1 = Wraith()
 
 # 유닛 일괄 관리
 attack_units = []
-attack_units.append(m1)
-attack_units.append(m2)
-attack_units.append(m3)
-attack_units.append(t1)
-attack_units.append(t2)
-attack_units.append(w1)
+# attack_units.append(m1)
+# attack_units.append(m2)
+# attack_units.append(m3)
+# attack_units.append(t1)
+# attack_units.append(t2)
+# attack_units.append(w1)
+attack_units.extend([m1,m2,m3,t1,t2,w1])
 
 for unit in attack_units:
     unit.move("1시")
